@@ -4,6 +4,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Works from './components/works/Works';
 import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
+import Gallery from './components/gallery/Gallery';
 import './app.scss';
 import { useState } from 'react';
 import Menu from './components/menu/Menu';
@@ -21,6 +22,7 @@ function App() {
         <Works />
         <Testimonials />
         <Contact />
+        <Gallery />
       </div>
     </div>
   );
